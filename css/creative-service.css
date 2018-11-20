@@ -7,6 +7,43 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url('https://fonts.googleapis.com/css?family=Forum');
 
+.Container1{
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  /*background-color: red; */
+  height: 460px;
+}
+.SlickCarousel1{/*img-thumbnail*/
+  /*background-color: pink;*/
+  margin:10px 10% 10px 10%;
+  /*height: 430px;*/
+ 
+}
+.img-fill{/***********/
+  /*background:black;*/
+  /*background-color: white;*/
+   height: 400px;
+   width: 100%; 
+   display:  flex;
+   align-items: center;
+   justify-content:  center;
+}
+.ProductBlock{/*有三個*/
+  /*vertical-align : middle;*/
+  /*background-color: purple;*/
+}
+.img-fill{
+  /*background-color: gray;*/
+  /*height: 410px;*/
+}
+.img-fill img{
+  /*max-width:100%; 
+  max-height:100%;
+  margin:auto;
+  display:block;*/
+  vertical-align : middle;
+}
+
 .modal-body .modal-iner-title{
   padding: 10px 10px 10px;
 }
@@ -309,6 +346,29 @@ aside{
     font-weight: 500;
   }
   /*end下拉菜單選單*/
+  /*Container幻燈片*/
+  .Container1{
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  /*background-color: red; */
+  height: 460px;
+  }
+  .SlickCarousel1{/*img-thumbnail*/
+    /*background-color: pink;*/
+    margin:10px 10% 10px 10%;
+    /*height: 430px;*/
+   
+  }
+  .img-fill{/***********/
+    /*background:black;*/
+    /*background-color: white;*/
+     height: 400px;
+     width: 100%; 
+     display:  flex;
+     align-items: center;
+     justify-content:  center;
+  }
+  /*END Container幻燈片*/
 }
 header{
  min-height:auto;
@@ -344,7 +404,7 @@ header .header-content .header-content-inner p{
 
 @media (min-width:768px) {
   header{
-    min-height:50%
+    /*min-height:50%*/
   }
   header .header-content{
     position:absolute;
