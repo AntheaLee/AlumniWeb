@@ -6,23 +6,28 @@
 /*@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);*/
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url('https://fonts.googleapis.com/css?family=Forum');
-
+.xs-banner img{
+  display: block;
+  max-width: 100%;
+  padding:20px 10px 20px 10px;
+}
 .Container1{
-  padding-top: 20px ;
-  padding-bottom: 20px ;
+  display: none;
+  padding-top: 5px ;
+  padding-bottom: 10px ;
   /*background-color: red; */
-  height: 460px;
+  height: 360px;
 }
 .SlickCarousel1{/*img-thumbnail*/
   /*background-color: pink;*/
-  margin:10px 10% 10px 10%;
+  margin:1px 3% 1px 3%;
   /*height: 430px;*/
  
 }
 .img-fill{/***********/
   /*background:black;*/
   /*background-color: white;*/
-   height: 400px;
+   height: 320px;
    width: 100%; 
    display:  flex;
    align-items: center;
@@ -69,7 +74,7 @@
    }
    /*end下來選單部分*/
 .FBicon:visited,.FBtext:visited{
- color: #3b5998;
+ color: #7aa5ff;
 }    
 .FBicon, .FBtext{
  color: white;
@@ -78,7 +83,7 @@
  color: #3b5998;
 }
 .FBtext:hover{
-   color: #8b9dc3;
+   color: #3a6cd6;
    text-decoration:none;
 }
 #topBtn{
@@ -210,7 +215,7 @@ p{
  color:rgba(255,255,255,.7)
 }
 section{
- padding:70px 0
+ padding:20px 0px 10px;
 }
 aside{
  padding:50px 0
@@ -263,11 +268,41 @@ aside{
 .navbar-default .nav>li.active>a:hover{
  background-color:transparent
 }
+@media(min-width: 480px){
+  .xs-banner img{
+    display: none;
+  }
+  .Container1{
+  display: block;
+  padding-top: 10px ;
+  padding-bottom: 5px ;
+  /*background-color: red; */
+  height: 300px;
+}
+.SlickCarousel1{/*img-thumbnail*/
+  /*background-color: pink;*/
+  margin:1px 2% 1px 2%;
+  /*height: 430px;*/
+ 
+}
+.img-fill{/***********/
+  /*background:black;*/
+  /*background-color: white;*/
+   height: 265px;
+   width: 100%; 
+   display:  flex;
+   align-items: center;
+   justify-content:  center;
+}
+}
 @media(max-width: 540px){
   #WebTitle{
     font-size: 14px;
     letter-spacing:0px;
   }
+  .section-heading{
+  font-size: 20px;
+ }
 }
 /*下來選單改成靠右部分*/
 @media(max-width: 767px){
@@ -346,8 +381,12 @@ aside{
     font-weight: 500;
   }
   /*end下拉菜單選單*/
+  .xs-banner{
+    display: none;
+  }
   /*Container幻燈片*/
   .Container1{
+    display: block;
   padding-top: 20px ;
   padding-bottom: 20px ;
   /*background-color: red; */
@@ -355,7 +394,7 @@ aside{
   }
   .SlickCarousel1{/*img-thumbnail*/
     /*background-color: pink;*/
-    margin:10px 10% 10px 10%;
+    margin:5px 3% 5px 3%;
     /*height: 430px;*/
    
   }
@@ -430,7 +469,8 @@ header .header-content .header-content-inner p{
   }
  }
  .section-heading{
-  margin-top:0
+  margin:0px 5px 0px 5px;
+  font-size: 24px;
  }
  .service-box{
   max-width:400px;
@@ -438,6 +478,28 @@ header .header-content .header-content-inner p{
  }
 
  @media (min-width:992px) {
+    .xs-banner{
+    display: none;
+  }
+  .Container1{
+  padding-top: 0px ;
+  padding-bottom: 0px ;
+  /*background-color: red; */
+  height: 500px;
+}
+.SlickCarousel1{/*img-thumbnail*/
+  /*background-color: pink;*/
+  margin:10px 3% 10px 3%;
+  /*height: 430px;*/
+}
+.img-fill{/***********/
+   /*background:black;*/
+   height: 470px;
+   width: 100%; 
+   display:  flex;
+   align-items: center;
+   justify-content:  center;
+}
   .service-box>p{
     /*width:300px;*/
    /* padding-left: 40px;
