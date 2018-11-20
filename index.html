@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NTUB｜IMD</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="img/icon.jpg" rel="shortcut icon">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative-service.css" rel="stylesheet">
+    <!-- slick slider CSS -->
+    <link rel="stylesheet" type="text/css" href="vendor/slick-master/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/slick-master/slick/slick-theme.css"/>
+    <!-- lightbox CSS -->
+    <link href="css/lightbox.css" rel="stylesheet">
+    <!-- upload套件 -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/file-upload-with-preview/dist/file-upload-with-preview.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <div class="navbar-header-btn">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>  <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div>
+                    <a class="navbar-brand " href="index.html" style="padding: 0px 15px 0px 15px;">
+                         <!-- <img src="img/portfolio/icon.png" class="img-responsive" alt=""> -->
+                         <h3 style="padding-bottom: 60px; " id="WebTitle">國立臺北商業大學 資訊管理系系友會</h3>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="" onclick = "f('sub_menu_1')">
+                        <a target="_blank" href="https://www.facebook.com/groups/imdntub/" >系友會FB</a>                      
+                    </li>
+                    <li class="" onclick = "f('sub_menu_1')">
+                        <a target="_blank" href="http://imd.ntub.edu.tw/bin/home.php" >回資管系首頁</a>                      
+                    </li>
+                    <li>
+                        <a target="_blank" class="page-scroll" href="http://www.ntub.edu.tw/bin/home.php">回北商首頁</a>
+                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="http://cm.ntub.edu.tw/files/11-1016-714.php">回管理學院</a>
+                    </li> -->
+                    <!-- <li>
+                        <a class="page-scroll" href="contact.html">登入</a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header >
+        <div style="height: 75px; "></div>
+        <!-- 證照幻燈片 -->
+	    <div class="Container1" >
+	        <!-- <h5 class="Head1"><span class="Arrows1"></span>技術證照</h5> -->
+	        <!-- Carousel Container -->
+	        <div class="SlickCarousel1">
+	           <!-- Item -->
+	            <div class="ProductBlock" >
+	              <div class="Content col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+	                <div class="img-fill" style="margin-top: 100px; ">
+	                  <!-- <img style="margin-left: auto;margin-right: auto;margin-bottom: 50px;/*margin:0px auto;*//*置中*/ "src="img/News/IMDhome.jpg"> -->
+                      <img class="img-thumbnail" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;/*置中*/ max-height: 450px;" src="img/News/3.JPG">
+	                </div>
+	              </div>
+	            </div>
+                <!-- Item -->
+	         	<div class="ProductBlock">
+	              <div class="Content col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+	                <div class="img2-fill" style="margin-top: 100px;">
+	                  <img class="img-thumbnail" style="margin-left: auto;margin-right: auto;margin-bottom: 20px;/*置中*/ max-height: 450px;" src="img/News/IMDhome.jpg">
+
+	                </div>
+	              </div>
+	            </div>
+	            <!-- Item -->
+                <div class="ProductBlock">
+                  <div class="Content col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="img2-fill img-thumbnail" style="margin-top: 100px;">
+                      <img style="margin-left: auto;margin-right: auto;margin-bottom: 20px;/*置中*/ max-height: 450px;" src="img/News/6.JPG">
+                    </div>
+                  </div>
+                </div>
+	        </div>
+	     </div>   
+    </header>
+<!-- <a href="img/icon.jpg" data-lightbox="roadtrip" data-title="第一張照片">
+        <img src="img/icon.jpg">
+    </a> -->
+    <!-- lightbox 範例 -->
+    <!-- <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1">
+        <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" />
+    </a> -->
+
+    <section id="services">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons">
+                    <div class="service-box">
+                        <a href=""><img id="circle" class=" img-fluid d-block mx-auto" src="img/service/7.jpg" ></a>
+                        <a href="" ><h3 style="letter-spacing:4px;">最新消息</h3></a>
+                        <div id="pppp" class="text-left" style="overflow: scroll;">
+                            <!-- <p class="text-muted"></p> -->
+                             <p class="text-muted" style="padding: 0;margin-bottom: 0;" >
+                                <ul style="font-size: 16px;">
+                                    <li>
+                                        恭賀！系友會網站上線囉！
+                                    </li>
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#exampleModal">「107年系友回娘家」開放報名</a>
+                                    </li>
+                                    <li>
+                                        「系慶50」活動 準備開跑！
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#uploadModal">歷年照片上傳</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://goo.gl/forms/aBFdEMHsQzcWDusq1">系友聯絡通訊錄 表單</a>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                    </div>    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons">
+                    <div class="service-box">
+                        <img id="circle" class=" img-fluid d-block mx-auto" src="img/service/oo.png" >
+                        <h3 style="letter-spacing:4px;">系慶50</h3>
+                        <div id="pppp" class="text-left" >
+                            <p class="text-muted" style="padding: 0;margin-bottom: 0; " >
+                                <ul style="font-size: 16px;">
+                                    <li>
+                                        <a target="_blank" href="https://goo.gl/forms/aBFdEMHsQzcWDusq1">系友聯絡通訊錄 表單</a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="modal" data-target="#uploadModal">歷年照片上傳</a>
+                                    </li>
+                                    <li>
+                                        <a>最新歷年照片</a>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>    
+                    </div>    
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons">
+                    <div class="service-box">
+                        <a href=""><img id="circle" class=" img-fluid d-block mx-auto" src="img/service/2.png" ></a>
+                        <a href=""><h3 style="letter-spacing:4px;">系友回娘家</h3></a>
+                        <div id="pppp" class="text-left" style="padding-left: 20px; overflow: scroll;">
+                            <p class="text-muted" style="padding: 0;margin-bottom: 0;" >
+                                <ul style="font-size: 16px;">
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#exampleModal">107學年度</a>
+                                    </li>
+                                    <li>
+                                        <a href="">106學年度</a>
+                                    </li>
+                                    <li>
+                                        <a href="">105學年度</a>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons">
+                    <div class="service-box">
+                        <a href=""><img id="circle" class=" img-fluid d-block mx-auto" src="img/service/3.jpg" ></a>
+                        <a href=""><h3 style="letter-spacing:4px;">業界導師</h3></a>
+                        <div id="pppp" class="text-left" style="padding-left: 20px; ;padding-top:15px;">
+                            <p class="text-muted" style="padding: 0;margin-bottom: 0;" >
+                                <ul style="font-size: 16px;">
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#MentorListModal">業界導師名單</a>
+                                    </li>
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#MentorImgModal">歷年活動照片</a>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons">
+                    <div class="service-box">
+                        <a href=""><img id="circle" class=" img-fluid d-block mx-auto" src="img/service/1.png" ></a>
+                        <a href=""><h3 style="letter-spacing:4px;">傑出校友/優良教師</h3></a>
+                        <div id="pppp" class="text-left" style="padding-left: 20px ;padding-top:15px; ">
+                            <!-- <p class="text-muted mmaarrgg">
+                                傑出校友名單
+                            </p> -->
+                            <p class="text-muted" style="padding: 0;margin-bottom: 0;" >
+                                <ul style="font-size: 16px;">
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#bestAlumniModal">傑出校友名單</a>
+                                    </li>
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#bestTeacherModal">優良教師名單</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="">105學年度</a>
+                                    </li> -->
+                                </ul>
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons">
+                    <div class="service-box">
+                        <a href=""><img id="circle" class=" img-fluid d-block mx-auto" src="img/service/33.jpg"></a>
+                        <a href=""><h3 style="letter-spacing:4px;">歷年活動</h3></a>
+                        <div id="pppp" class="text-left" style="padding-left: 20px;padding-top: 0px; overflow: scroll;">
+                            <!-- <p class="text-muted">回娘家回娘家回娘家回娘家回娘家回娘家回娘家</p> -->
+                            <p class="text-muted" style="padding: 0;margin-bottom: 0;" >
+                                <ul style="font-size: 16px;">
+                                    <li>
+                                        <a href="" data-toggle="modal" data-target="#HikingModal">登山健行</a>
+                                    </li>
+                                    <li>
+                                        <a href="">領域之能體驗營</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><a href=""><a href="">敬師活動</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><a href="">感恩餐會</a>
+                                    </li>
+                                    <li>
+                                        <a href="">資訊技能競賽</a>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>    
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="text-center" style="padding-top: 0px;">
+    	<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#donateModal">
+		  系 友 捐 款
+		</button>
+    </section>
+    <!-- 歷年照片上傳 Modal -->
+        <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="uploadModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="uploadModalLabel">歷年照片上傳</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group ">
+                        <label class="col-lg-2 col-md-2 col-sm-2 col-xs-12 control-label" for="formGroupInputLarge">活動名稱*</label>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                          <input class="form-control" type="text" id="formGroupInputLarge" placeholder="輸入...">
+                        </div>
+                    </div>
+                
+                    <!-- 上傳套件 -->
+                    <div class="col-xs-12">
+                        <div class="custom-file-container" data-upload-id="myUniqueUploadId">
+                          <label>Upload File <a href="javascript:void(0)" class="custom-file-container__image-clear" title="Clear Image">&times;</a></label>
+                          <label class="custom-file-container__custom-file" >
+                              <input type="file" class="custom-file-container__custom-file__custom-file-input" accept="image/*" multiple>
+                              <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                              <span class="custom-file-container__custom-file__custom-file-control" style="padding-top: 2px;padding-bottom: 5px;height: 25px;"></span>
+                          </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+                    <div class=" text-center">
+                        <button type="submit" class="btn btn-primary col-lg-">確認上傳</button> 
+                    </div>
+                 </form> 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- 107系友回娘家 Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h3 class="modal-title" id="exampleModalLabel">2018.12.21（五）資管系系友回娘家</h3>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		  <!-- <p><a href="" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p> -->
+
+		  		<p><a target="_blank" href="https://goo.gl/forms/E3wGAYWvgEhYnMPe2" class="tooltip-test" title="報名連結">2018.12.21（五）資管系系友回娘家 報名連結</a><br>歡迎請各位系友撥空回學校走走~</p>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/BackHome/107back.jpg">
+				<!-- 線上報名請按此： -->
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+		      </div>
+		    </div>
+		  </div>
+		</div>
+    <!-- 業界導師名單 Modal -->
+        <div class="modal fade" id="MentorListModal" tabindex="-1" role="dialog" aria-labelledby="MentorListModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="eMentorListModalLabel">業界導師名單</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>業界導師簡介：<br>
+                    邀請業界專家擔任學生業界導師。<br>
+                    目的：<br>
+                    1.藉由業界專家實務經驗分享提供資管系學生認識產業、職場最直接的管道以刺激思考未來發展。<br>
+                    2.藉由業界經驗提供本系發展定位與課程設計與寶貴建議。<br>
+                </p>
+                <h3 class="btn-primary modal-iner-title">105學年度</h3>
+                <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/Mentors/105MentorList.png">
+                <h3 class="btn-primary modal-iner-title">106學年度</h3>
+                <!-- PDF file -->               
+                <embed src="img/Mentors/106MentorList.pdf#toolbar=0" type="application/pdf" width="100%" height="600px"></embed>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+	<!-- 傑出校友 Modal -->
+		<div class="modal fade" id="bestAlumniModal" tabindex="-1" role="dialog" aria-labelledby="bestAlumniModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h3 class="modal-title" id="bestAlumniModalLabel">傑出校友名單</h3>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		  		<h3 class="btn-primary modal-iner-title">106年</h2>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/bestAlumni/10601.png">
+		        <br><br>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/bestAlumni/10602.png">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+		      </div>
+		    </div>
+		  </div>
+		</div>	
+	<!-- 優良教師 Modal -->
+		<div class="modal fade" id="bestTeacherModal" tabindex="-1" role="dialog" aria-labelledby="bestTeacherModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h3 class="modal-title" id="bestTeacherModalLabel">優良教師名單</h3>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		  		<h3 class="btn-primary modal-iner-title" >107年</h2>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/bestTeacher/10701.png">
+		        <br><br>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/bestTeacher/10702.png">
+
+		        <h3 class="btn-primary modal-iner-title" >106年</h2>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/bestTeacher/10600.png">
+		        <br><br>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/bestTeacher/10601.png">
+		        <br><br>
+		        <img style="margin-left: auto;margin-right: auto;/*margin-bottom: 50px;*//*margin:0px auto;*/max-width:100%;/*置中*/max-height:10%;" src="img/bestTeacher/10602.png">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+		      </div>
+		    </div>
+		  </div>
+		</div>
+    <!-- 登山健行 large Modal -->
+        <div class="modal fade" id="HikingModal" tabindex="-1" role="dialog" aria-labelledby="HikingModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="HikingModalLabel">登山健行</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h3 class="btn-primary modal-iner-title">107年 05.19 內湖健行</h2>
+                <div class="photoWall row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/1.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img  src="img/Hiking/107/1.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/2.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img  src="img/Hiking/107/2.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/3.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img  src="img/Hiking/107/3.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/4.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img  src="img/Hiking/107/4.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/5.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img  src="img/Hiking/107/5.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/6.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/6.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/7.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img  src="img/Hiking/107/7.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/8.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/8.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/9.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/9.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/10.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/10.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/11.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/11.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/12.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/12.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/13.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/13.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/14.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/14.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/15.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/15.JPG"></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center sr-icons" ><a href="img/Hiking/107/16.JPG" data-lightbox="Hiking107" data-title="05.19 內湖健行"><img src="img/Hiking/107/16.JPG"></a></div>
+                </div>    
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- 捐款 Modal -->
+        <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="donateModalLabel">系友捐款說明</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                    親愛的系友您好：<br><br>
+                    國立臺北商業大學資管系系友會的成立，促進了系友間的交流，也協助資管系的運作，其目的為了讓系上學子能獲得更多的知識，具備專業的技能，跟上日新月異的資訊潮流。<br>
+                    為促使系友會能正常運作會務，我們由衷的希望您能踴躍捐助系友會，使會務得以持續營運外，若您願意提供我們資訊設備，讓在校的學生們能使用這些設備來精進自己的技能、擁有更好的學習環境，請您匯款至以下帳戶及聯絡人資訊如下：<br><br>
+                     
+                    戶名:國立臺北商業大學臺北市校友會<br>
+                    銀行別:聯邦銀行 和平分行<br>
+                    帳號: <a>078-10-8003158</a><br>
+                    資管系專屬子帳號：<br>
+                    帳號:<a>10339-06-01-12345</a><br>
+                    請您捐款後，至此<a target="_blank" href="https://goo.gl/forms/KcIy022hViG2Q21d2">網址</a>填寫捐款資料，以便製作捐款收據予您，謝謝。<br><br>
+                     
+                    若您有設備可直接提供，<br>
+                    請聯繫資管系系辦公室：<a>02-2322-6412 </a>吳助教<br>
+                    電子郵件：<a>miko9210@ntub.edu.tw</a><br>
+                    這將會幫助系上發展與學生們學習，謝謝您！<br>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    <!--
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Foretaste !</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Order Now</a>
+            </div>
+        </div>
+    </aside>
+    -->
+    <a id="topBtn" class="page-scroll" href="#page-top" title="Go to top">⌅ TOP</a>
+    <aside class="bg-dark">
+        <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p id="copyright">Copyrights © 2018 All Rights Reserved by NTUB IMD</p>
+                    <h2 class="section-heading">國立臺北商業大學資訊管理系(本校行政大樓四樓)</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-map-marker fa-3x sr-contact"></i>
+                    <p>10051 台北市中正區濟南路一段 321 號 (捷運板南線善導寺站下車)</p>
+                </div>
+                <div class="col-lg-4  text-center">
+                    <i class="fa fa-fax fa-3x sr-contact "></i>
+                    <p>886-2-23226414</p>
+                </div>
+                <div class="col-lg-4  text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>886-2-23226408~6413</p>
+                </div>
+                <!-- <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:service@all-tech.com.tw">service@all-tech.com.tw</a></p>
+                </div> -->
+                <div class="col-lg-4 text-center">
+                    <a class="FBicon" href="https://www.facebook.com/groups/imdntub/" target="_blank" ><i class="fa fa-facebook-square fa-3x sr-contact"></i></a>
+                    <p><a class="FBtext" href="https://www.facebook.com/groups/imdntub/" target="_blank" >Club</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </aside>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+    <script type="text/javascript" src="vendor/slick-master/slick/jquery-1.11.0.min.js"></script>   
+    <script type="text/javascript" src="vendor/slick-master/slick/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="vendor/slick-master/slick/slick.min.js"></script>
+    <!--修改carousel slider-->
+    <script src="js/carousel.js"></script>
+    <!--Lightbox 相簿 JavaScript-->
+    <script src="js/lightbox.js"></script>
+    <!--upload套件 JavaScript-->
+    <script src="https://unpkg.com/file-upload-with-preview"></script>
+    <script>
+            var upload = new FileUploadWithPreview('myUniqueUploadId')
+    </script> 
+
+</body>
+</html>
