@@ -285,7 +285,8 @@
                 </button>
               </div>
               <div class="modal-body">
-                <form id="imgUpload" enctype="multipart/form-data" class="form-horizontal" action="http://140.131.115.19:8000/activities/images/add/" method="post">
+                <form id="imgUpload" enctype="multipart/form-data" class="form-horizontal" action="http://imd-alumni.ntub.edu.tw:8000/activities/images/add/" method="post">
+                    <!-- http://140.131.115.19:8000/activities/images/add/ -->
                     <div class="form-group ">
                         <label class="col-lg-2 col-md-2 col-sm-2 col-xs-12 control-label" for="formGroupInputLarge">活動名稱*</label>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
@@ -312,7 +313,7 @@
                  </form> 
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button id="hidePopUpBtn" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
               </div>
             </div>
@@ -873,11 +874,14 @@
               </div>
               <div class="modal-body">
                 <a href="#107Aug"><button type="button" class="btn btn-primary">107 Aug</button></a>
-                <a href="#106May"><button type="button" class="btn btn-primary">106 May</button></a>
-                <a href="#106Jul"><button type="button" class="btn btn-primary">106 Jul</button></a>
                 <a href="#106Dec"><button type="button" class="btn btn-primary">106 Dec</button></a>
+                <a href="#106Jul"><button type="button" class="btn btn-primary">106 Jul</button></a>
+                <a href="#106May"><button type="button" class="btn btn-primary">106 May</button></a>
 
                 <h3 id="107Aug" class="btn-primary modal-iner-title">107年 08.13</h2>
+                <!-- PDF file -->               
+                <embed src="img/thanksMeal/10701/107thanksMeal.pdf#toolbar=0" type="application/pdf" width="100%" height="600px"></embed>
+
                 <div class="photoWall row">
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/thanksMeal/10701/107-lg/1.jpg" data-lightbox="thanksMeal10701" data-title="107.08.13 感恩餐會"><img  src="img/thanksMeal/10701/107-sm/1.jpg"></a></div>
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/thanksMeal/10701/107-lg/2.jpg" data-lightbox="thanksMeal10701" data-title="107.08.13 感恩餐會"><img  src="img/thanksMeal/10701/107-sm/2.jpg"></a></div>
@@ -889,43 +893,106 @@
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/thanksMeal/10701/107-lg/8.jpg" data-lightbox="thanksMeal10701" data-title="107.08.13 感恩餐會"><img src="img/thanksMeal/10701/107-sm/8.jpg"></a></div>
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/thanksMeal/10701/107-lg/9.jpg" data-lightbox="thanksMeal10701" data-title="107.08.13 感恩餐會"><img src="img/thanksMeal/10701/107-sm/9.jpg"></a></div>
                 </div>   
-                <h3 id="106Dec" class="btn-primary modal-iner-title">106年 12.16</h2>
+                <h3 id="106Dec" class="btn-primary modal-iner-title">106.12.16 感恩餐會</h2>
                 <div class="photoWall row">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center sr-icons" ><a href="img/oldPhotos/30ago/30ago-lg/資處.jpg" data-lightbox="oldPhotos-30ago" data-title="電子資料處理科"><img src="img/oldPhotos/30ago/30ago-sm/資處.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center sr-icons" ><a href="img/oldPhotos/30ago/30ago-lg/DSC_2764.jpg" data-lightbox="oldPhotos-30ago" data-title="30週年"><img src="img/oldPhotos/30ago/30ago-sm/DSC_2764.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center sr-icons" ><a href="img/oldPhotos/30ago/30ago-lg/DSC_2765.jpg" data-lightbox="oldPhotos-30ago" data-title="30週年"><img src="img/oldPhotos/30ago/30ago-sm/DSC_2765.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center sr-icons" ><a href="img/oldPhotos/30ago/30ago-lg/DSC_2767.jpg" data-lightbox="oldPhotos-30ago" data-title="30週年"><img src="img/oldPhotos/30ago/30ago-sm/DSC_2767.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center sr-icons" ><a href="img/oldPhotos/30ago/30ago-lg/DSC_2768.jpg" data-lightbox="oldPhotos-30ago" data-title="30週年"><img src="img/oldPhotos/30ago/30ago-sm/DSC_2768.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/1.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/1.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/2.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/2.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/3.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/3.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/4.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/4.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/5.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/5.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/6.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/6.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/7.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/7.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/8.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/8.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/9.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/9.jpg"></a></div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/10.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/10.jpg"></a></div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/11.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/11.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/12.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/12.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/14.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/14.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/13.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/13.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/15.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/15.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/16.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/16.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/17.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/17.jpg"></a></div>
+                    <!-- <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/18.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/18.jpg"></a></div> -->
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/19.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/19.jpg"></a></div>
+                   
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/20.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/20.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/21.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/21.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/22.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/22.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/23.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/23.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/24.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/24.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/25.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/25.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/26.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/26.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/27.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/27.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/28.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/28.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/29.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/29.jpg"></a></div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/30.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/30.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/31.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/31.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/32.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/32.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/33.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/33.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/34.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/34.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/35.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/35.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/36.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/36.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/37.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/37.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/38.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/38.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/39.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/39.jpg"></a></div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/40.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/40.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/41.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/41.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/42.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/42.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/43.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/43.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/44.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/44.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/45.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/45.jpg"></a></div>
+                    <!-- 46 -->
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/47.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/47.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/48.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/48.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/49.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/49.jpg"></a></div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/50.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/50.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/51.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/51.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/52.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/52.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/53.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/53.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/54.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/54.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/55.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/55.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/56.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/56.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/57.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/57.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/58.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/58.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/59.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/59.jpg"></a></div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/60.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img src="img/thanksMeal/10603/106-sm/60.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/61.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/61.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/62.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/62.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/63.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/63.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/64.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/64.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10603/106-lg/65.jpg" data-lightbox="thanksMeal10603" data-title="106.12.16 感恩餐會"><img  src="img/thanksMeal/10603/106-sm/65.jpg"></a></div>
+                   
+                </div>   
+                
+                <h3 id="106Jul" class="btn-primary modal-iner-title">106.07.01 系友會餐敘</h2>
+                <!-- PDF file -->               
+                <embed src="img/thanksMeal/10602/106thanksMeal.pdf#toolbar=0" type="application/pdf" width="100%" height="370px"></embed>
+
+                <div class="photoWall row">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/1.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img  src="img/thanksMeal/10602/106-sm/1.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/2.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img  src="img/thanksMeal/10602/106-sm/2.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/3.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img  src="img/thanksMeal/10602/106-sm/3.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/4.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img  src="img/thanksMeal/10602/106-sm/4.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/5.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img  src="img/thanksMeal/10602/106-sm/5.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/6.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img src="img/thanksMeal/10602/106-sm/6.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/7.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img  src="img/thanksMeal/10602/106-sm/7.jpg"></a></div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/9.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img src="img/thanksMeal/10602/106-sm/9.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/10.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img src="img/thanksMeal/10602/106-sm/10.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/8.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img src="img/thanksMeal/10602/106-sm/8.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center " ><a href="img/thanksMeal/10602/106-lg/12.jpg" data-lightbox="thanksMeal10602" data-title="106.07.01 系友會餐敘"><img src="img/thanksMeal/10602/106-sm/12.jpg"></a></div>
+               
                 </div>
-                <h3 id="106Jul" class="btn-primary modal-iner-title">106年 07.01</h2>
+                <h3 id="106May" class="btn-primary modal-iner-title">106.05.20 聯絡人餐會</h2>
                 <div class="photoWall row">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/資管.jpg" data-lightbox="oldPhotos-20ago" data-title="資訊管理科"><img src="img/oldPhotos/20ago/20ago-sm/資管.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2713.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2713.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2714.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2714.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2716.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2716.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2719.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2719.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2720.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2720.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2721.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2721.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2790.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2790.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2791.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2791.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2792.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2792.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2795.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2795.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2715.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2715.jpg"></a></div>
-                </div>
-                <h3 id="106May" class="btn-primary modal-iner-title">106年 05.20</h2>
-                <div class="photoWall row">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/資管.jpg" data-lightbox="oldPhotos-20ago" data-title="資訊管理科"><img src="img/oldPhotos/20ago/20ago-sm/資管.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2713.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2713.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2714.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2714.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2716.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2716.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2719.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2719.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2720.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2720.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2721.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2721.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2790.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2790.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2791.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2791.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2792.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2792.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2795.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2795.jpg"></a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/oldPhotos/20ago/20ago-lg/DSC_2715.jpg" data-lightbox="oldPhotos-20ago" data-title="20週年"><img src="img/oldPhotos/20ago/20ago-sm/DSC_2715.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/thanksMeal/10601/106-lg/1.jpg" data-lightbox="thanksMeal10601" data-title="106.05.20 感恩餐會"><img src="img/thanksMeal/10601/106-sm/1.jpg"></a></div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 text-center" ><a href="img/thanksMeal/10601/106-lg/2.jpg" data-lightbox="thanksMeal10601" data-title="106.05.20 感恩餐會"><img src="img/thanksMeal/10601/106-sm/2.jpg"></a></div>
                 </div>
               </div>
               <div class="modal-footer">
@@ -1052,12 +1119,14 @@
      $(function() {
        // bind 'myForm' and provide a simple callback function
        $('#imgUpload').ajaxForm({
-        success: function (responseText, statusText) {
-            console.log(statusText)
-            console.log(responseText)
-            $('#uploadModal').modal('hide');
+        success: function (responseText, statusText,) {
+            console.log(statusText);
+            console.log(responseText);
+            // $('#uploadModal').modal('hide');
             alert('Upload success');
-        }
+            document.getElementById("hidePopUpBtn").click();
+        },
+        error: function(){ alert('上傳失敗');}
        });
      });
     </script>
