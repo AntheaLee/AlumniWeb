@@ -106,11 +106,50 @@
     color: white;
     background-color: rgba(193,13,35,1); /* Add a dark-grey background on hover */
 }
-#pppp{
+#pppp1{
+ height:250px; /*80px;*/
+ background: #eee;
+ letter-spacing:1px;
+ /*overflow: scroll;*/
+}
+#pppp2{
+ height:180px; /*80px;*/
+ background: #eee;
+ letter-spacing:1px;
+ /*overflow: scroll;*/
+}
+#pppp3{
  height:140px; /*80px;*/
  background: #eee;
  letter-spacing:1px;
+ /*overflow: scroll;*/
+ padding-left: 20px;
 }
+#pppp4{
+ height:140px; /*80px;*/
+ background: #eee;
+ letter-spacing:1px;
+ /*overflow: scroll;*/
+ padding-left: 20px;
+ padding-top:15px;
+}
+#pppp5{
+ height:140px; /*80px;*/
+ background: #eee;
+ letter-spacing:1px;
+ /*overflow: scroll;*/
+ padding-left: 20px;
+ padding-top:15px;
+}
+#pppp6{
+ height:240px; /*80px;*/
+ background: #eee;
+ letter-spacing:1px;
+ /*overflow: scroll;*/
+ padding-left: 20px;
+ padding-top: 0px;
+}
+
 .row h3{
  background: #EF5B09;
  color: white;
@@ -273,27 +312,27 @@ aside{
     display: none;
   }
   .Container1{
-  display: block;
-  padding-top: 10px ;
-  padding-bottom: 5px ;
-  /*background-color: red; */
-  height: 300px;
-}
-.SlickCarousel1{/*img-thumbnail*/
-  /*background-color: pink;*/
-  margin:1px 2% 1px 2%;
-  /*height: 430px;*/
- 
-}
-.img-fill{/***********/
-  /*background:black;*/
-  /*background-color: white;*/
-   height: 265px;
-   width: 100%; 
-   display:  flex;
-   align-items: center;
-   justify-content:  center;
-}
+    display: block;
+    padding-top: 10px ;
+    padding-bottom: 5px ;
+    /*background-color: red; */
+    height: 300px;
+  }
+  .SlickCarousel1{/*img-thumbnail*/
+    /*background-color: pink;*/
+    margin:1px 2% 1px 2%;
+    /*height: 430px;*/
+   
+  }
+  .img-fill{/***********/
+    /*background:black;*/
+    /*background-color: white;*/
+     height: 265px;
+     width: 100%; 
+     display:  flex;
+     align-items: center;
+     justify-content:  center;
+  }
 }
 @media(max-width: 540px){
   #WebTitle{
@@ -304,7 +343,7 @@ aside{
   font-size: 20px;
  }
 }
-/*下來選單改成靠右部分*/
+/*下拉選單改成靠右部分*/
 @media(max-width: 767px){
    #bs-example-navbar-collapse-1{
      background-color: rgb(245,245,245);
@@ -318,6 +357,7 @@ aside{
    #mainNav{
     background-color: #fff0;
    }
+
 }
 @media (min-width:768px) {
 
@@ -386,17 +426,16 @@ aside{
   }
   /*Container幻燈片*/
   .Container1{
-    display: block;
-  padding-top: 20px ;
-  padding-bottom: 20px ;
-  /*background-color: red; */
-  height: 460px;
+   display: block;
+   padding-top: 20px ;
+   padding-bottom: 20px ;
+   /*background-color: red; */
+   height: 460px;
   }
   .SlickCarousel1{/*img-thumbnail*/
     /*background-color: pink;*/
     margin:5px 3% 5px 3%;
     /*height: 430px;*/
-   
   }
   .img-fill{/***********/
     /*background:black;*/
@@ -408,6 +447,48 @@ aside{
      justify-content:  center;
   }
   /*END Container幻燈片*/
+  #pppp1{
+   height:140px; /*80px;*/
+   background: #eee;
+   letter-spacing:1px;
+   overflow: scroll;
+  }
+  #pppp2{
+   height:140px; /*80px;*/
+   background: #eee;
+   letter-spacing:1px;
+   overflow: scroll;
+  }
+  #pppp3{
+   height:140px; /*80px;*/
+   background: #eee;
+   letter-spacing:1px;
+   /*overflow: scroll;*/
+   padding-left: 20px;
+  }
+  #pppp4{
+   height:140px; /*80px;*/
+   background: #eee;
+   letter-spacing:1px;
+   /*overflow: scroll;*/
+   padding-left: 20px;
+   padding-top:15px;
+  }
+  #pppp5{
+   height:140px; /*80px;*/
+   background: #eee;
+   letter-spacing:1px;
+   /*overflow: scroll;*/
+   padding-left: 20px;
+   padding-top:15px;
+  }
+  #pppp6{
+   height:140px; /*80px;*/
+   background: #eee;
+   letter-spacing:1px;
+   overflow: scroll;
+   padding-left: 20px;padding-top: 0px;
+  }
 }
 header{
  min-height:auto;
@@ -482,24 +563,24 @@ header .header-content .header-content-inner p{
     display: none;
   }
   .Container1{
-  padding-top: 0px ;
-  padding-bottom: 0px ;
-  /*background-color: red; */
-  height: 500px;
-}
-.SlickCarousel1{/*img-thumbnail*/
-  /*background-color: pink;*/
-  margin:10px 3% 10px 3%;
-  /*height: 430px;*/
-}
-.img-fill{/***********/
-   /*background:black;*/
-   height: 470px;
-   width: 100%; 
-   display:  flex;
-   align-items: center;
-   justify-content:  center;
-}
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+    /*background-color: red; */
+    height: 500px;
+  }
+  .SlickCarousel1{/*img-thumbnail*/
+    /*background-color: pink;*/
+    margin:10px 3% 10px 3%;
+    /*height: 430px;*/
+  }
+  .img-fill{/***********/
+     /*background:black;*/
+     height: 470px;
+     width: 100%; 
+     display:  flex;
+     align-items: center;
+     justify-content:  center;
+  }
   .service-box>p{
     /*width:300px;*/
    /* padding-left: 40px;
@@ -509,8 +590,36 @@ header .header-content .header-content-inner p{
   .service-box{
     margin:20px auto 0
   }
- }
+}
 
+@media (min-width:1200px) {
+  .Container1{
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+    /*background-color: red; */
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SlickCarousel1{/*img-thumbnail*/
+    /*background-color: pink;*/
+    margin:20px 0% 20px 0%;
+    /*height: 430px;*/
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-fill{/***********/
+   /*background:black;*/
+   /*height: 500px;*/
+   width: 100%; 
+   display:  flex;
+   align-items: center;
+   justify-content:  center;
+  }
+}
  .service-box p{
   margin-bottom:30px
  }
